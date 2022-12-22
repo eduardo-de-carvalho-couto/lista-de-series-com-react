@@ -1,0 +1,33 @@
+.banner {
+    background-color: #29CCEA;
+    padding-top: 40px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.banner .banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.banner .banner-container .apresentacao {
+    color: #FFFFFF;
+}
+
+.banner .banner-container .apresentacao .logos-container {
+    display: flex;
+}
+
+.logos {
+    background-color: #FFFFFF;
+    padding: 9px 5px 5px 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.banner img {
+    max-width: 100%;
+}
