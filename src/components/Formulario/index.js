@@ -6,13 +6,6 @@ import './Formulario.css'
 
 const Formulario = (props) => {
 
-    const servicos = [
-        'Netflix',
-        'Prime Video',
-        'HBO Max',
-        'Showtime'
-    ]
-
     const [nome, setNome] = useState('')
     const [imagem, setImagem] = useState('')
     const [servico, setServico] = useState('')
@@ -24,6 +17,9 @@ const Formulario = (props) => {
             imagem: imagem, 
             servico: servico
         })
+        setNome('')
+        setImagem('')
+        setServico('')
     }
 
     return (
@@ -45,8 +41,8 @@ const Formulario = (props) => {
                 />
                 <ListaSuspensa 
                     obrigatorio={true} 
-                    label="Servico" 
-                    itens={servicos}
+                    label="Servico"
+                    itens={props.servicos}
                     valor={servico}
                     aoAlterado={valor => setServico(valor)}
                 />
