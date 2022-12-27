@@ -7,6 +7,10 @@ git clone https://github.com/eduardo-de-carvalho-couto/lista-de-series-com-react
 ```
 
 ```
+cd lista-de-series-com-react/
+```
+
+```
 docker build -t app/node .
 ```
 
