@@ -3,7 +3,7 @@
 ## Para rodar este projeto na sua máquina utilizando o docker, siga estes passos:
 
 ```
-git clonde https://github.com/eduardo-de-carvalho-couto/lista-de-series-com-react
+git clone https://github.com/eduardo-de-carvalho-couto/lista-de-series-com-react
 ```
 
 ```
